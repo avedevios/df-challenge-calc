@@ -1,0 +1,6 @@
+framework module CalculatorFramework {
+  umbrella header "CalculatorFramework.h"
+  export *
+
+  module * { export * }
+}
