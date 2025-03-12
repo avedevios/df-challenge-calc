@@ -1,7 +1,7 @@
 import SwiftUI
 
 class CalculatorWrapper: ObservableObject {
-    private let calculator = CalculatorObjC()
+    private let calculator = CalculatorFramework()
 
     func inputNumber(_ number: Double) {
         calculator.inputNumber(number)

@@ -1,10 +1,13 @@
 //
-//  Use this file to import your target's public headers that you would like to expose to Swift.
+//  CalculatorFramework.h
+//  CalculatorFramework
+//
+//  Created by Anton Averianov on 2025-03-11.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface CalculatorObjC : NSObject
+@interface CalculatorFramework : NSObject
 
 - (void)inputNumber:(double)number;
 - (void)setOperation:(NSString *)operation;

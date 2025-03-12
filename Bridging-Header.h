@@ -4,7 +4,7 @@
 //
 //  Created by Anton Averianov on 2025-03-10.
 //
-#import "CalculatorObjC.h"
+#import "CalculatorFramework.h"
 
 #ifndef Bridging_Header_h
 #define Bridging_Header_h
